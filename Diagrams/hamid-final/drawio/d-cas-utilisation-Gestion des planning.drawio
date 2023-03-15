@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="p3Sak2p1EpTbRjsYzoPJ" name="Page-1">
+        <mxGraphModel dx="1403" dy="2770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="-1190" width="730" height="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="-1070" width="530" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="SECRETAIRE" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="-690" y="-985" width="40" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Gestion des planning" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-570" y="-975" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="CRIER UNE SEANCE D'APPRENTISSAGE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="-1048" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="MODIFIE UNE SEANCE D'APPRENTISSAGE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="-901" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="SUPPRIMER UNE SEANCE D'APPRENTISSAGE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="-977.5" width="150" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="11" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-490" y="-860" as="sourcePoint"/>
+                        <mxPoint x="-440" y="-910" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-390" y="-950" as="sourcePoint"/>
+                        <mxPoint x="-390" y="-1030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-340" y="-940" as="sourcePoint"/>
+                        <mxPoint x="-390" y="-950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-490" y="-820" as="sourcePoint"/>
+                        <mxPoint x="-440" y="-870" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="S'AUTHENTIFIE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="-365" y="-780" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="23" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-550" y="-870" as="sourcePoint"/>
+                        <mxPoint x="-390" y="-870" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="MONITEUR" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="-690" y="-660" width="40" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="CONSULTE PLANNING" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-550" y="-640" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=none;html=1;exitX=0.566;exitY=0.637;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="26" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-650" y="-615" as="sourcePoint"/>
+                        <mxPoint x="-420" y="-535" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="28" target="23" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-490" y="-915" as="sourcePoint"/>
+                        <mxPoint x="-275" y="-770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="DIAGRAMME CAS D'UTILISATION :&lt;br&gt;CONSULTE PLANNING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="-1160" width="310" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
