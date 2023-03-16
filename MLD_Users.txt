@@ -1,0 +1,6 @@
+
+MLD :
+Utilisateur(_IDUser, nom, prenom,telephone, email, login ,mdp)
+Secretaire(_#IDUser, dateE, salaire, heureTravail , joursTravail)
+Moniteur(_#IDUser,dateE, salaire, heureTravail , joursTravail , CategoriePermis)
+Propreitaire(_#IDUser, roles , CategoriePermis)
