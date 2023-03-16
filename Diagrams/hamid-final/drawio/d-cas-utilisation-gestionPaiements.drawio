@@ -1,29 +1,29 @@
 <mxfile host="65bd71144e">
     <diagram id="YFVskjbZgupJMEUqkcqs" name="Page-1">
-        <mxGraphModel dx="1979" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2107" dy="2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-                    <mxGeometry x="-785" y="-1169" width="730" height="720" as="geometry"/>
+                    <mxGeometry x="-785" y="-1169" width="730" height="649" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-675" y="-1049" width="530" height="560" as="geometry"/>
+                    <mxGeometry x="-675" y="-1049" width="530" height="489" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="SECRETAIRE" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
                     <mxGeometry x="-735" y="-964" width="40" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Gestion des planning" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="5" value="Gestion des paiements" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
                     <mxGeometry x="-615" y="-954" width="140" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="CRIER UNE SEANCE D'APPRENTISSAGE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-                    <mxGeometry x="-405" y="-1027" width="150" height="50" as="geometry"/>
+                <mxCell id="6" value="EFFECTUE UN PAIEMENT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-405" y="-1027" width="155" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="MODIFIE UNE SEANCE D'APPRENTISSAGE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-                    <mxGeometry x="-405" y="-880" width="160" height="50" as="geometry"/>
+                <mxCell id="7" value="CONSULTER LES PAIEMENTS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-405" y="-880" width="165" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="SUPPRIMER UNE SEANCE D'APPRENTISSAGE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-                    <mxGeometry x="-405" y="-956.5" width="150" height="55" as="geometry"/>
+                <mxCell id="8" value="ENVOYER DES RAPPELS AU CANDIDATS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-405" y="-956.5" width="165" height="55" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="5">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -33,14 +33,14 @@
                 </mxCell>
                 <mxCell id="10" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="-435" y="-929" as="sourcePoint"/>
+                        <mxPoint x="-440" y="-930" as="sourcePoint"/>
                         <mxPoint x="-435" y="-1009" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-385" y="-919" as="sourcePoint"/>
-                        <mxPoint x="-435" y="-929" as="targetPoint"/>
+                        <mxPoint x="-440" y="-929" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
@@ -50,7 +50,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="13" value="S'AUTHENTIFIE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-                    <mxGeometry x="-410" y="-759" width="160" height="50" as="geometry"/>
+                    <mxGeometry x="-625" y="-690" width="160" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="13">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -58,26 +58,17 @@
                         <mxPoint x="-435" y="-849" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="MONITEUR" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-                    <mxGeometry x="-735" y="-639" width="40" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="CONSULTE PLANNING" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-                    <mxGeometry x="-595" y="-619" width="140" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="" style="endArrow=none;html=1;exitX=0.566;exitY=0.637;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="16">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="-695" y="-594" as="sourcePoint"/>
-                        <mxPoint x="-465" y="-514" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="13">
-                    <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="-535" y="-894" as="sourcePoint"/>
-                        <mxPoint x="-320" y="-749" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="19" value="DIAGRAMME CAS D'UTILISATION :&lt;br&gt;GESTION PLANNING &amp;amp; CONSULTE PLANNING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+                <mxCell id="19" value="DIAGRAMME CAS D'UTILISATION :&lt;br&gt;GESTION PAIEMENTS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
                     <mxGeometry x="-675" y="-1139" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="IMPRIMER UN BON DE PAIEMENT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="-405" y="-810" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-440" y="-930" as="sourcePoint"/>
+                        <mxPoint x="-470" y="-610" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
